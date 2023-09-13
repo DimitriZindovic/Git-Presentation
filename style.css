@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right top, #76fab3, #6be1a1, #61c890, #57af7f, #4d976e);
+    background-size: 50% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vw;
+    animation: gradientAnim 7.5s ease  alternate infinite;
+  }
+  
+@keyframes gradientAnim {
+    to {
+    background-position: 100% top;
+    }
+  }
+
+  .conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+  }
+
+  .conteneur img{
+    border-radius: 50%;
+    max-width:  100px;
+    max-height: 100px;
+  }
