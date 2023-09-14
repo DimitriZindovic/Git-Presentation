@@ -49,6 +49,35 @@ body {
   text-align: center;
 }
 
+.header-raphael {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+  padding: 30px;
+}
+
+.nav-raphael {
+  display: flex;
+  align-items: center;
+  height: 0;
+  color: white;
+}
+.nav-raphael ul {
+  display: flex;
+}
+
+.nav-raphael ul li {
+  display: flex;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.nav-raphael a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   padding: 1.5% 0 1.5% 0;
   display: flex;
