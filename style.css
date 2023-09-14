@@ -81,6 +81,7 @@ body {
 }
 
 .box-fiona {
+  height: 400px;
   width: 400px;
   border-radius: 50%;
   border: 10px solid #001220;
@@ -106,7 +107,6 @@ body {
 
 .h2-fiona {
   font-size: 40px;
-  border-radius: 50px;
   padding-bottom: 10%;
 }
 
@@ -115,5 +115,12 @@ body {
 }
 
 .text-fiona {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+.h3-fiona {
+  font-size: 25px;
+  border-radius: 50px;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
