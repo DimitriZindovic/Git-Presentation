@@ -1,30 +1,155 @@
-h2{
-    text-align: center;
-    text-transform: uppercase;
-    background-image: linear-gradient(to right top, #76fab3, #6be1a1, #61c890, #57af7f, #4d976e);
-    background-size: 50% auto;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Poppins', sans-serif;
-    font-size: 8vw;
-    animation: gradientAnim 7.5s ease  alternate infinite;
-  }
-  
-@keyframes gradientAnim {
-    to {
-    background-position: 100% top;
-    }
-  }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-  .conteneur{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .conteneur img{
-    border-radius: 50%;
-    max-width:  100px;
-    max-height: 100px;
-  }
+html,
+body {
+  height: 100vh inherit;
+}
+
+#raphBody {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2vw;
+}
+
+#raphBody h1 {
+  text-align: center;
+  font-size: 5vw;
+}
+#raphBody h2 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+#raphImgDimitri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+  border-radius: 50px;
+}
+
+.raphCenter {
+  text-align: center;
+}
+
+#raphBody h3 {
+  text-align: center;
+}
+.raphImgSmallSize {
+  width: 80px;
+}
+#raphBody h3 {
+  text-align: center;
+}
+
+.header-raphael {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  background-color: rgb(48, 48, 48);
+  padding: 30px;
+}
+
+.nav-raphael {
+  display: flex;
+  align-items: center;
+  height: 0;
+  color: white;
+}
+.nav-raphael ul {
+  display: flex;
+}
+
+.nav-raphael ul li {
+  display: flex;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.nav-raphael a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding: 1.5% 0 1.5% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001220;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 100px;
+}
+
+.navbar .nav-link {
+  font-size: 20px;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px 77px 15px 77px;
+}
+
+.nav-link:hover {
+  background-color: #ff6400;
+  border-radius: 100px;
+}
+
+.dimitri-body {
+  background-image: url(images/layered-waves-haikei.svg);
+  background-size: cover;
+}
+
+.box-fiona {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 10px solid #001220;
+  overflow: hidden;
+}
+
+.content-fiona img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.presentation-fiona {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  gap: 10%;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+}
+
+.h2-fiona {
+  font-size: 40px;
+  padding-bottom: 10%;
+}
+
+.description-fiona {
+  width: 55%;
+}
+
+.text-fiona {
+  font-size: 25px;
+}
+
+.h3-fiona {
+  font-size: 25px;
+  border-radius: 50px;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
