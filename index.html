@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Fiona</title>
   </head>
-  <body class="dimitri-body">
+  <body class="fiona-body">
     <header class="header">
       <nav class="navbar">
         <a href="#" class="nav-link">Fiona</a>
@@ -83,5 +83,12 @@
         </div>
       </section>
     </main>
+    <script>
+      const svgElement = document.getElementById("fiona-body");
+
+      svgElement.addEventListener("click", () => {
+        svgElement.style.transform = "scale(1.2)";
+      });
+    </script>
   </body>
 </html>

@@ -111,7 +111,7 @@ body {
   background-position: left;
 }
 
-.dimitri-body {
+.fiona-body {
   background-image: url(images/layered-waves-haikei.svg);
   background-size: cover;
   width: 100vw;
@@ -119,14 +119,55 @@ body {
 }
 
 .box-fiona {
+  position: relative;
   height: 400px;
   width: 400px;
   border-radius: 50%;
-  border: 10px solid #001220;
+  border: 6px solid #001220;
+  overflow: hidden;
+  background: #001220;
+}
+
+.box-fiona::before {
+  content: "";
+  position: absolute;
+  inset: -10px 70px;
+  background: linear-gradient(360deg, #7f3d24, #ff6400);
+  animation: animate 4s linear infinite;
+}
+
+.box-fiona:hover::before {
+  inset: -20px 0px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+.box-fiona::after {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background: #001220;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content-fiona {
+  position: absolute;
+  inset: 14px;
+  z-index: 3;
+  border-radius: 50%;
   overflow: hidden;
 }
 
 .content-fiona img {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
