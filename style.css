@@ -172,7 +172,7 @@ body {
   }
 }
 
-.conteneur-raphael {
+.conteneur-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,4 +183,8 @@ body {
   border-radius: 50%;
   max-width:  100px;
   max-height: 100px;
+}
+
+body{
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
 }
