@@ -153,7 +153,7 @@ body {
   background-color: rgba(255, 255, 255, 0.09);
   backdrop-filter: blur(7px);
   border-radius: 15px;
-  padding: 1rem;
+  padding: 4rem;
   box-shadow: rgba(255, 255, 0, 0.201) 0px 24px 80px,
     rgba(255, 255, 0, 0.201) 0px 24px 80px;
 }
