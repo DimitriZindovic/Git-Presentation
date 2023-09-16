@@ -154,7 +154,7 @@ body {
   padding-bottom: 8%;
 }
 
-  
+
 
   .conteneur-raphael {
     display: flex;
@@ -180,5 +180,22 @@ body {
 
 .text-raph{
   padding: 10px;
+  text-align: center;
  
+}
+
+.language-raphael{
+  text-align: center;
+}
+.bouton-raphael{
+  text-align: center;
+}
+
+.citation-raphael{
+  text-align: center;
+  font-style: italic;
+}
+
+.info-raphael{
+  text-align: center;
 }
