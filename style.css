@@ -34,6 +34,21 @@ body {
   width: 30vw;
   border-radius: 50px;
 }
+#raphImgDimitri:hover {
+  animation: bounce 2s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 .raphCenter {
   text-align: center;
@@ -251,4 +266,45 @@ body {
   border-radius: 50%;
   max-width: 100px;
   max-height: 100px;
+}
+
+@media screen and (max-width: 750px) {
+  #raphBody {
+    font-size: 18px;
+  }
+  .nav-raphael {
+    align-items: center;
+  }
+
+  .nav-raphael ul li {
+    display: flex;
+    text-decoration: none;
+    /* margin-left: 60px; */
+    margin: 10px;
+  }
+  
+.nav-raphael ul li {
+    display: flex;
+    text-decoration: none;
+    /* margin-left: 60px; */
+    margin: 10px;
+}
+#raphBody h1 {
+  text-align: center;
+  font-size: 35px;
+}
+#raphBody h2 {
+  text-align: center;
+  font-size: 35px;
+}
+#raphImgDimitri {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-radius: 50px;
+}
+#raphDescription{
+  margin: 0 20px;
+}
 }
