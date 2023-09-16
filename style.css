@@ -114,23 +114,14 @@ body {
   padding: 15px 77px 15px 77px;
 }
 
-.nav-link {
-  background-image: linear-gradient(to left, transparent 50%, #ff6400 50%);
-  background-position: right;
-  background-size: 200% 100%;
-  border-radius: 100px;
-  transition: background-position 0.3s;
-}
-
 .nav-link:hover {
-  background-position: left;
+  background-color: #ff6400;
+  border-radius: 100px;
 }
 
 .fiona-body {
   background-image: url(images/layered-waves-haikei.svg);
   background-size: cover;
-  width: 100vw;
-  height: 200vh;
 }
 
 .box-fiona {
@@ -206,12 +197,6 @@ body {
 
 .description-fiona {
   width: 55%;
-  background-color: rgba(255, 255, 255, 0.09);
-  backdrop-filter: blur(7px);
-  border-radius: 15px;
-  padding: 4rem;
-  box-shadow: rgba(255, 255, 0, 0.201) 0px 24px 80px,
-    rgba(255, 255, 0, 0.201) 0px 24px 80px;
 }
 
 .text-fiona {
@@ -225,47 +210,50 @@ body {
   padding-bottom: 8%;
 }
 
-.point-fiona {
-  font-size: 25px;
-  margin-left: 5%;
-}
 
-.h2-raphael {
-  text-align: center;
-  text-transform: uppercase;
-  background-image: linear-gradient(
-    to right top,
-    #76fab3,
-    #6be1a1,
-    #61c890,
-    #57af7f,
-    #4d976e
-  );
-  background-size: 50% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Poppins", sans-serif;
-  font-size: 8vw;
-  animation: gradientAnim 7.5s ease alternate infinite;
-}
 
-@keyframes gradientAnim {
-  to {
-    background-position: 100% top;
-  }
-}
-
-.conteneur-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20px;
+  .conteneur-raphael {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px; 
 }
 
 .conteneur-raphael img {
-  border-radius: 50%;
-  max-width: 100px;
-  max-height: 100px;
+  border-radius: 10% 25%;
+  max-width: 50vh;
+  max-height: 50vh;
+  flex-direction: column;
+}
+
+.fiona{
+  background-image: url(images/005\ Young\ Passion.png);
+}
+
+.h2-rapheal{
+  text-align: center;
+}
+
+.text-raph{
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+.language-raphael{
+  text-align: center;
+}
+.bouton-raphael{
+  text-align: center;
+}
+
+.citation-raphael{
+  text-align: center;
+  font-style: italic;
+}
+
+.info-raphael{
+  text-align: center;
 }
 
 @media screen and (max-width: 750px) {
