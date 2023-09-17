@@ -94,14 +94,14 @@ body {
 }
 
 .header {
-  padding: 1.5% 0 1.5% 0;
+  padding: 1.5% 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #001220;
   margin-top: 2%;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 37%;
+  margin-right: 37%;
   border-radius: 100px;
 }
 
@@ -111,17 +111,64 @@ body {
   color: white;
   font-weight: 600;
   text-decoration: none;
-  padding: 15px 77px 15px 77px;
+  padding: 15px 25px;
+  margin: 15px;
+}
+
+.nav-link {
+  background-image: linear-gradient(to left, transparent 50%, #ff6400 50%);
+  background-position: right;
+  background-size: 200% 100%;
+  border-radius: 100px;
+  transition: background-position 0.3s;
 }
 
 .nav-link:hover {
-  background-color: #ff6400;
-  border-radius: 100px;
+  background-position: left;
+}
+
+@media screen and (max-width: 1700px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px;
+  }
+
+  .nav-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 .fiona-body {
   background-image: url(images/layered-waves-haikei.svg);
   background-size: cover;
+  width: 100vw;
+  height: 230%;
 }
 
 .box-fiona {
@@ -184,7 +231,9 @@ body {
 .presentation-fiona {
   display: flex;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
   gap: 10%;
   font-family: "Monserrat", sans-serif;
   color: white;
@@ -197,6 +246,12 @@ body {
 
 .description-fiona {
   width: 55%;
+  background-color: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(7px);
+  border-radius: 15px;
+  padding: 4rem;
+  box-shadow: rgba(255, 255, 0, 0.201) 0px 24px 80px,
+    rgba(255, 255, 0, 0.201) 0px 24px 80px;
 }
 
 .text-fiona {
@@ -210,13 +265,25 @@ body {
   padding-bottom: 8%;
 }
 
+.point-fiona {
+  font-size: 25px;
+  margin-left: 5%;
+}
 
-
-  .conteneur-raphael {
-    display: flex;
+@media screen and (max-width: 1200px) {
+  .presentation-fiona {
     flex-direction: column;
-    align-items: center; 
-    padding: 10px; 
+  }
+  .description-fiona {
+    width: 100%;
+  }
+}
+
+.conteneur-raphael {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 .conteneur-raphael img {
@@ -226,33 +293,32 @@ body {
   flex-direction: column;
 }
 
-.fiona{
+.fiona {
   background-image: url(images/005\ Young\ Passion.png);
 }
 
-.h2-rapheal{
+.h2-rapheal {
   text-align: center;
 }
 
-.text-raph{
+.text-raph {
   padding: 10px;
   text-align: center;
- 
 }
 
-.language-raphael{
+.language-raphael {
   text-align: center;
 }
-.bouton-raphael{
+.bouton-raphael {
   text-align: center;
 }
 
-.citation-raphael{
+.citation-raphael {
   text-align: center;
   font-style: italic;
 }
 
-.info-raphael{
+.info-raphael {
   text-align: center;
 }
 
@@ -270,12 +336,13 @@ body {
     /* margin-left: 60px; */
     margin: 10px;
   }
-  
+}
+
 .nav-raphael ul li {
-    display: flex;
-    text-decoration: none;
-    /* margin-left: 60px; */
-    margin: 10px;
+  display: flex;
+  text-decoration: none;
+  /* margin-left: 60px; */
+  margin: 10px;
 }
 #raphBody h1 {
   text-align: center;
@@ -292,7 +359,6 @@ body {
   width: 60%;
   border-radius: 50px;
 }
-#raphDescription{
+#raphDescription {
   margin: 0 20px;
-}
 }
