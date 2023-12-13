@@ -1,9 +1,18 @@
-# Rendue de projet git :
+<h1>Projet de page de description/h1>
 
-### Travail réalisé par Dimitri Zindovic, Raphaël Chiche et Fiona Ververt-Riga
+<h3>Rendu de cours Git</h3>
 
-#### Raphaël Chiche a réalisé la page dimitri.html et contribué au style.css
+<h2>Description :</h2>
 
-#### Dimitri Zindovic a réalisé la page index.html et contribué au style.css
+Le projet consiste à créer un page sur l'un des membres de l'équipe travail
 
-#### Fiona Ververt-Riga a réalisé la page raphael.html et contribué au style.css
+<h2>Technologies :</h2>
+
+HTML
+CSS
+
+<h2>Auteur :</h2>
+
+Dimitri Zindovic
+Raphaël Chiche
+Fiona Ververt-Riga
